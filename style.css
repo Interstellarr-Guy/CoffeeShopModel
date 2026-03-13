@@ -2,7 +2,9 @@ body{
 font-family: Arial;
 margin:0;
 }
-
+h2,p{
+    color:antiquewhite;
+}
 .navbar{
 display:flex;
 justify-content:space-between;
@@ -48,7 +50,7 @@ background:#555555;
 .contact{
 text-align:center;
 padding:40px;
-background:#666666;
+background:#3e2723;
 }
 
 form{
@@ -62,7 +64,7 @@ gap:10px;
 .address{
 text-align:center;
 padding:30px;
-background:#666666;
+background:#3e2723;
 }
 
 
@@ -111,7 +113,7 @@ font-size:3rem;
 }
 
 .review-left{
-background:rgb(57, 44, 44);
+background:#3e2723;
 padding:30px;
 
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
@@ -119,7 +121,7 @@ text-align: center;
 }
 
 .review-right{
-background:#666666;
+background:#3e2723;
 padding:10px;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
