@@ -100,7 +100,18 @@ gap:20px;
 .reviews{
 grid-template-columns:1fr;
 }
-
+.stats {
+    background-color: #0A000d;
+}
+.h2a{
+    color: red; margin-left: 0px;
+}
+.h2b{
+    color: rgb(148, 1, 1);margin-left: 0px;
+}
+.h2c{
+    color: #0A000d; margin-left: 0px;
+}
 }
 /* new update */
 
