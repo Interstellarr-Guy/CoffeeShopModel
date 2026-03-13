@@ -2,17 +2,17 @@ function ContactForm() {
   return (
     <section className="contact">
 
-      <h2>Contact Us</h2>
+      <h2 className="head">Contact Us</h2>
 
       <form className="f">
 
         <input className="bar" type="text" placeholder="Name" />
 
-        <input type="email" placeholder="Email" />
+        <input className="bar" type="email" placeholder="Email" />
 
-        <textarea placeholder="Address"></textarea>
+        <textarea className="bar" placeholder="Address"></textarea>
 
-        <button>Send</button>
+        <button className="btn">Send</button>
         
 
       </form>

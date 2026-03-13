@@ -5,6 +5,7 @@ margin:0;
 h2,p{
     color:antiquewhite;
 }
+
 .navbar{
 display:flex;
 justify-content:space-between;
@@ -35,22 +36,17 @@ padding:40px;
 background:#555555;
 }
 .h2a{
-    color: rgb(107, 37, 37);
-    margin-left: 26px;
+    color: #0A000d; margin-left: 26px;
 }
 .h2b{
-    color: rgb(107, 37, 37);
-    margin-left: 12px;
+    color: #0A000d;margin-left: 12px;
 }
 .h2c{
-    color: rgb(107, 37, 37);
-    margin-left: 36px;
+    color: #0A000d; margin-left: 36px;
 }
 
 .contact{
-text-align:center;
-padding:40px;
-background:#3e2723;
+text-align:center; padding:40px; background:#3e2723;
 }
 
 form{
@@ -61,12 +57,33 @@ margin:auto;
 gap:10px;
 }
 
+.bar{
+   background: #555555;
+   border: wheat;
+   border-radius: 8px;
+   padding-top: 3px;
+   padding-bottom: 3px;   
+}
+.btn{
+   background: rgb(148, 1, 1);
+   border: wheat;
+   border-radius: 8px;
+   padding-top: 3px;
+   padding-bottom: 3px;   
+}
 .address{
 text-align:center;
 padding:30px;
 background:#3e2723;
 }
+hr.ruler{
+    border: none;
+    height: 2px;
+    background-color: #666; 
+}
 
+.logo { color: rgb(148, 1, 1);}
+.head { color: rgb(148, 1, 1);}
 
 /* MOBILE RESPONSIVE */
 
@@ -75,20 +92,16 @@ background:#3e2723;
 .nav-links{
 display:none;
 }
-
 .stats{
 flex-direction:column;
 text-align:center;
 gap:20px;
 }
-
-
 .reviews{
 grid-template-columns:1fr;
 }
 
 }
-
 /* new update */
 
 .hero-slide{
@@ -115,7 +128,6 @@ font-size:3rem;
 .review-left{
 background:#3e2723;
 padding:30px;
-
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 text-align: center;
 }
@@ -123,7 +135,6 @@ text-align: center;
 .review-right{
 background:#3e2723;
 padding:10px;
-border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 text-align: center;
 }

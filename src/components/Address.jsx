@@ -1,8 +1,8 @@
 function Address() {
   return (
     <section className="address">
-       <hr className="hhh" />
-      <h2>Our Address</h2>
+       <hr className="ruler" />
+      <h2 className="head">Our Address</h2>
 
       <p>123 Coffee Street</p>
       <p>Chennai, Tamil Nadu</p>

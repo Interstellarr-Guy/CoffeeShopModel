@@ -30,13 +30,13 @@ function Reviews() {
       </div>
 
       <div className="review-right">
-
-        <h3>Customer Ratings</h3>
+        <hr className="ruler" />
+        <h2 className="head">Customer Ratings</h2>
 
         <p>⭐⭐⭐⭐⭐ Excellent taste</p>
         <p>⭐⭐⭐⭐ Great atmosphere</p>
         <p>⭐⭐⭐⭐⭐ Friendly staff</p>
-        <hr />
+        <hr className="ruler" />
 
       </div>
 
