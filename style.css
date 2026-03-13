@@ -34,15 +34,16 @@ display:flex;
 justify-content:space-around;
 padding:40px;
 background:#555555;
+background: #0A000d;
 }
 .h2a{
-    color: #0A000d; margin-left: 26px;
+    color: rgb(148, 1, 1); margin-left: 26px;
 }
 .h2b{
-    color: #0A000d;margin-left: 12px;
+    color: rgb(148, 1, 1); margin-left: 12px;
 }
 .h2c{
-    color: #0A000d; margin-left: 36px;
+    color: rgb(148, 1, 1); margin-left: 36px;
 }
 
 .contact{
@@ -104,13 +105,13 @@ grid-template-columns:1fr;
     background-color: #0A000d;
 }
 .h2a{
-    color: red; margin-left: 0px;
+    color: rgb(148, 1, 1); margin-left: 0px;
 }
 .h2b{
     color: rgb(148, 1, 1);margin-left: 0px;
 }
 .h2c{
-    color: #0A000d; margin-left: 0px;
+    color: rgb(148, 1, 1); margin-left: 0px;
 }
 }
 /* new update */
